@@ -23,7 +23,10 @@
 
 .s1{
     overflow: auto;
-    background-color: BLACK;
+    background-image: url("../../public/paysage.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 800px;
 }
 
 .main-container {
