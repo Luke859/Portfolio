@@ -3,7 +3,7 @@
         <div class="main-container">
             <div class="message">
                 <div class="greeting">
-                    <h1 class="moi">Luke Jones</h1>
+                    <h1 class="moi">Jasmine is the best</h1>
                     <h3>Etudiant en Informatique</h3>
                     <h2>Portfolio</h2>
                 </div>
