@@ -50,7 +50,7 @@
 
                 <div class="left-block">
                     <div class="picture">
-                        <img id="Luke-photo" src="../assets/photo_1.jpg" />
+                        <img id="Luke-photo" src="../assets/luke2.jpg" />
                         <a target="_blank" href="cv_de_luke.pdf" download="" class="CV"><i class="fa fa-download"></i>Télécharger CV</a>
                     </div>
                     <div class="find">
@@ -79,11 +79,17 @@
 }
 
 .main-container {
-    width: 1200px;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1200px){
+#about {
+    background-color: black;
+    padding: 75px;
+    border-radius: 50px;
+    width: 1400px;
+}
+
+@media screen and (max-width: 1400px){
     .main-container {
         width: 95%
     }
@@ -94,9 +100,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'left right';
     column-gap: 60px;
-    /* -webkit-box-shadow: -33px 23px 2px 2px rgba(0,0,0,1);
-    -moz-box-shadow: -33px 23px 2px 2px rgba(0,0,0,1);
-    box-shadow: -33px 23px 2px 2px rgba(0,0,0,1); */
 }
 
 .s2-title{
@@ -144,7 +147,6 @@
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 30px;
-    border: 10px solid black;
 }
 
 #text {
@@ -241,7 +243,6 @@
 .left-block .find {
     position: flex;
     background-color: white;
-    border: 10px solid black;
     margin-top: 80px;
     border-radius: 20px;
     padding: 20px;

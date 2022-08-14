@@ -1,10 +1,10 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
-import Experiences from './views/Experiences.vue';
-import Projets from './views/Projets.vue';
-import About from './views/About.vue';
-import Home from './views/Home.vue';
-import Contact from './views/Contact.vue';
+import Experiences from './components/Experiences.vue';
+import Projets from './components/Projets.vue';
+import About from './components/About.vue';
+import Home from './components/Home.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 <template>
