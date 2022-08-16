@@ -12,7 +12,8 @@
                     <h2>Portfolio</h2>
                 </div>
                 <div class="phrase">
-                    <h1 class="moi">Luke Jones</h1>
+                    <img id="photo" src="../assets/luke3.jpg" />
+                    <!-- <h1 class="moi">Luke Jones</h1> -->
                 </div>
             </div>
         </div>
@@ -27,6 +28,7 @@
     background-repeat: no-repeat;
     object-fit: cover;
     height: 800px;
+    width: auto;
 }
 
 .main-container {
@@ -49,8 +51,10 @@
 }
 .greeting{
     grid-area: right;
-    display: grid;
+    /* display: grid; */
+    text-align: center;
     font-family: 'Kalam', cursive;
+    margin-top: 50%;
 }
 .greeting ul{
     position: relative;
@@ -87,10 +91,23 @@
     text-shadow: 2px 2px 10px #1275c6;
 }
 
+/* Côté gauche de ma section */
+
+#photo{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 2px solid rgba(255,255,255,.5);;
+    border-radius: 300px;
+
+}
+
 .phrase{
     grid-area: left;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .phrase .moi{
     display: grid;
@@ -109,6 +126,10 @@
     }
     .phrase{
         justify-content: center;
+    }
+
+    .greeting{
+        margin-top: 0%;
     }
 }
 

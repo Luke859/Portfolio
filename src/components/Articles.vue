@@ -1,10 +1,10 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="vertical-align: top; background-color: #1565c0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 100 1440 150" style="vertical-align: top; background-color: #1565c0">
     <path fill="#42a5f5" fill-opacity="1" d="M0,128L24,122.7C48,117,96,107,144,112C192,117,240,139,288,154.7C336,171,384,181,432,176C480,171,528,149,576,160C624,171,672,213,720,208C768,203,816,149,864,149.3C912,149,960,203,1008,224C1056,245,1104,235,1152,202.7C1200,171,1248,117,1296,112C1344,107,1392,149,1416,170.7L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
     </svg>
     <section class="s4">
         <div class="main-container">
-            <h1 class="s4-title">MES PROJETS</h1>
+            <h1 class="s4-title">MES ARTICLES</h1>
             <div class="projets">
                 <div class="card-projets">
                     <div class="card-content">

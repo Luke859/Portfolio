@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue'
 import Experiences from './components/Experiences.vue';
-import Projets from './components/Projets.vue';
+import Articles from './components/Articles.vue';
 import About from './components/About.vue';
 import Home from './components/Home.vue';
 import Contact from './components/Contact.vue';

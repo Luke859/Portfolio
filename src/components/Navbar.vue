@@ -14,7 +14,7 @@
       <ul class="primary-navigation" data-visible="false">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About me</router-link></li>
-        <li><router-link to="/Projets">Projets</router-link></li>
+        <li><router-link to="/Articles">Articles</router-link></li>
         <li><router-link to="/Experiences">Experiences</router-link></li>
         <li><router-link to="/Contact">Contact</router-link></li>
         <li><router-link to="/Entreprise">Entreprise</router-link></li>

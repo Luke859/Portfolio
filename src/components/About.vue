@@ -1,5 +1,5 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="vertical-align: top; background-color: #1565c0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 1440 110" style="vertical-align: top; background-color: #1565c0">
     <path fill="#42a5f5" fill-opacity="1" d="M0,160L60,170.7C120,181,240,203,360,197.3C480,192,600,160,720,165.3C840,171,960,213,1080,213.3C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
     </svg>
     <section class="s2">
@@ -13,7 +13,7 @@
                         <p>
                         Je suis un étudiant en Informatique à Nantes Ynov Campus. 
                         <br>
-                        Mon but serait d'y préparé un bachelor et ensuite de faire un mastère. 
+                        Mon but serait d'y préparer un bachelor et ensuite de faire un master. 
                         </p>
                     </div>
                     <div id="info">
@@ -57,7 +57,7 @@
                         <h4>Ce que je recherche ?</h4>
                         <br>
                         <p>
-                        - une alternance pour la rentrer en Septembre
+                        - une alternance pour la rentrée début Octobre
                         </p>
                     </div>
                 </div>
@@ -82,13 +82,6 @@
     margin: 0 auto;
 }
 
-#about {
-    background-color: black;
-    padding: 75px;
-    border-radius: 50px;
-    width: 1400px;
-}
-
 @media screen and (max-width: 1400px){
     .main-container {
         width: 95%
@@ -100,6 +93,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 'left right';
     column-gap: 60px;
+    background-color: black;
+    padding : 50px;
+    border-radius : 30px;
 }
 
 .s2-title{
@@ -144,9 +140,8 @@
     display: grid;
     align-content: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 #text {
@@ -168,8 +163,7 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    background-color: white;
-    /* align-items:center; */
+    /* background-color: white; */
 }
 
 #info .list{
@@ -213,8 +207,8 @@
 #Luke-photo{
     display: block;
     margin: 0 auto;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
     border: 2px solid black;
     border-radius: 20px 20px;
@@ -244,7 +238,7 @@
     position: flex;
     background-color: white;
     margin-top: 80px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
     padding-top: 30px;
     color: black;
