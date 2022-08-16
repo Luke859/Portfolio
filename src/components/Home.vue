@@ -12,7 +12,7 @@
                     <h2>Portfolio</h2>
                 </div>
                 <div class="phrase">
-                    <!-- <img id="photo" src="../assets/luke3.jpg" /> -->
+                    <img id="photo" src="../assets/luke_bleu.jpg" />
                     <!-- <h1 class="moi">Luke Jones</h1> -->
                 </div>
             </div>
