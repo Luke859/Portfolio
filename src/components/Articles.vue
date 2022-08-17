@@ -8,23 +8,18 @@
             <div class="projets">
                 <div class="card-projets">
                     <div class="card-content">
-                        <h2 class="card-title">
-                        Application mobile
-                        </h2>
-                        <p class="card-body1">
-                        Le but du projet mettre en place une application mobile(Android/iOS) permettant de renseigner un annuaire des objets dans une maison/un appartement.
-                        Le language utilisé est React Native. 
-                        </p>
-                        <a href="#" class="button">Learn more</a>
-                    </div>
-                </div>
-                <div class="card-projets">
-                    <div class="card-content">
-                        <h2 class="card-title">
-                        Projets 2
-                        </h2>
+                        <h2 class="card-title">Mon bilan de stage</h2>
                         <p class="card-body">
-                        text
+                        Je vous explique les points positifs et négatifs de mon stage mais aussi mon ressenti.
+                        </p>
+                        <a href="#" class="button"><router-link to="/Articles/Bilan_stage">Learn more</router-link></a>
+                    </div>
+                </div>
+                <div class="card-projets">
+                    <div class="card-content">
+                        <h2 class="card-title">L'atelier bonne pratique</h2>
+                        <p class="card-body">
+                        Dans cet article, je vais vous parler des differentes activités, ateliers que j'ai pu vivre en entreprise, pour prendre du recule sur le travail.
                         </p>
                         <a href="#" class="button">Learn more</a>
                     </div>
@@ -32,7 +27,7 @@
                 <div class="card-projets">
                     <div class="card-content">
                         <h2 class="card-title">
-                        Projets 3
+                        Les avantages et inconvénient du télétravail
                         </h2>
                         <p class="card-body">
                         Ok
@@ -58,18 +53,7 @@
                         </h2>
                         <p class="card-body">
                         Ok
-                        </p>
-                        <a href="#" class="button">Learn more</a>
-                    </div>
-                </div>
-                <div class="card-projets">
-                    <div class="card-content">
-                        <h2 class="card-title">
-                        Projets 3
-                        </h2>
-                        <p class="card-body">
-                        Ok
-                        </p>
+                        </p>                    
                         <a href="#" class="button">Learn more</a>
                     </div>
                 </div>
@@ -112,7 +96,7 @@
 @media screen and (max-width: 1200px){
     .main-container {
         width: 95%
-    }
+    }  
 }
 
 .projets{
@@ -131,7 +115,7 @@
     color: red;
     background-image: url("../assets/CAT.gif");
     background-size: cover;
-    padding: 10rem 0 0;
+    padding-top: 60px;
     max-width: 35ch;
     min-width: 220px;
     max-height: 40ch;
@@ -148,22 +132,22 @@
     background: linear-gradient(hsl(0 0% 0% / 0), hsl(20 0% 0% / 0.3) 10%, hsl(0 0% 0% / 1));
     --padding: 1.5rem;
     padding: var(--padding);
-    right: 0;
+    height: 400px;
+
 }
 
 .projets .card-content .card-title{
     position: relative;
     width: max-content;
     color: white;
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 .projets .card-content .card-body{
     color: white;
-}
-
-.projets .card-content .card-body1{
-    color: white;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .projets .card-content .card-title::after{
@@ -202,9 +186,60 @@
     transition: 800ms ease;
 }
 
+@media screen and (max-width: 1000px){
+    .projets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 75px;
+    min-height: 100vh;
+    line-height: 1.6;
+    background: black;
+    font-family: sans-serif;
+    padding: 50px 50px 50px 50px;
+    /* min-width: 990px; */
+    }
+
+    .projets .card-projets{
+        color: red;
+        background-image: url("../assets/CAT.gif");
+        background-size: cover;
+        padding: 10rem 0 0;
+        width: 45ch;
+        max-height: 40ch;
+        border-radius: 0.5em;
+        margin: 0 auto;
+        overflow: hidden;
+        transition: transform 500ms ease;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .projets{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    background: black;
+    font-family: sans-serif;
+
+    }
+
+    .projets .card-projets{
+        color: red;
+        background-image: url("../assets/CAT.gif");
+        background-size: cover;
+        padding: 10rem 0 0;
+        width: 25ch;
+        min-width: 220px;
+        max-height: 40ch;
+        border-radius: 0.5em;
+        overflow: hidden;
+        transition: transform 500ms ease;
+    }
+}
+
 @media (hover){
     .card-content{
-        transform: translateY(60%);
+        transform: translateY(50%);
         transition: transform 500ms ease;
     }
 

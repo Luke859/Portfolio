@@ -50,7 +50,7 @@
 
                 <div class="left-block">
                     <div class="picture">
-                        <img id="Luke-photo" src="../assets/luke2.jpg" />
+                        <img id="Luke-photo" src="../assets/luke1.jpg" />
                         <a target="_blank" href="cv_de_luke.pdf" download="" class="CV"><i class="fa fa-download"></i>Télécharger le CV</a>
                     </div>
                     <div class="find">
