@@ -2,50 +2,69 @@
     <section class="s8">
         <div class="main-container">
             <div class="text">
-                <h2>Projets réalisés 30/08/2022</h2>
+                <h1>Missions réalisés chez SIIUM 30/08/2022</h1>
                 <br>
-                <p>Lors de mon stage, j'ai pu travailler sur différents projets. Pour ma première tâche j'ai principalement travailler avec C# et microsoft Dynamcis. Je suis ensuite partit sur un projet que l'entreprise travaillait deçu depuis quelque années où ils utilisaient principalement PHP et Symfony (Back-End).</p>
+                <h2>Introduction</h2>
                 <br>
-                <p> Je vous explique plus en détail mes différentes tâches que j'ai accomplie sur differents projets</p>
+                <p>Lors de mon stage, j'ai pu travailler sur différents projets. Pour ma première tâche j'ai principalement travailler avec C# et microsoft Dynamics.</p> 
+                <p>Je suis ensuite parti sur un projet dont l'entreprise travaillait deçu depuis plusieurs années, où ils utilisaient principalement PHP et Symfony (Back-End).</p>
+                <p>Je vous explique plus en détail mes différentes tâches que j'ai accomplie pendant mon stage.</p>
+                <p>Dès mon premier jour arrivé en entreprise j'ai reçu ma première tâche.</p>
                 <br>
-                <p>Dès mon premier jour arriver en entreprise j'ai reçu ma première tâche.</p>
-                <p>Projet n°1 : Récupèrer les informations d'une API pour les exporter dans un fichier et après l'importer sur SAGE. SAGE qui est un logiciel de comptabilité et de gestion d'entreprise.</p>
+                <h2>Projet n°1 : Projet API </h2>
                 <br>
-                <p>Ma première tâche était d'appeler l'API qui est une API de microsoft Dynamics.</p>
+                <p>Pour des raisons privés je n'ai pas eu le droit de vous montrez des images de ce projet.</p>
                 <br>
-                <p>Deuxième tâche était de générer un fichier dans lequel on retrouve les informations de l'API voulut.</p>
-                <p>Troisième tâche, prendre le fichier et le générer dans le logiciel SAGE.</p>
+                <p>Le but de ce projet était de récupèrer les informations d'une API contenant des informations sur les entreprises en relation avec SIIUM, pour les exporter dans un fichier et après l'importer sur SAGE. SAGE qui est un logiciel de comptabilité et de gestion d'entreprise.</p>
                 <br>
-                <p>Projet n°2 : Le projet s'appellle "Shweet". C'est une application qui vous permet de déployer une sonde et grâce à cette sonde on peut capturer l'ensemble de votre système d'information, les types et les monitores en temps réel (PC, box, boite réseau, ect...). Avec cela on peut retrouver leur interface 3D pour bien visualiser l'ensemble de l'infrastructure informatique de la personne.</p>
-                <p>Si vous voulez en savoir plus sur le projet voici le lien -> https://shwett.com/</p>
+                <p>- Ma première tâche était d'appeler l'API qui est une API de microsoft Dynamics et d'essayer de l'afficher dans la console de visual studio.</p>
+                <p>Il fallait que je gère la requête pour appeler l'API mais aussi gérer la pagination car l'API comportait plusieurs pages.</p>
+                <p>Je devais alors afficher ces 3 pages sur une seule page dans la console de visual studio.</p>
+                <p>Pour finaliser cette première tâche, la dernière chose à faire était de trier les informations voulut pour chaque entreprise.</p>
                 <br>
-                <p>Tâche n°1 -> Mettre en place une alerte qui permet de mettre en vue ou non vue.</p>
+                <p>- Ma deuxième tâche était de générer un fichier dans lequel on retrouve les informations de l'API ci-dessus.</p>
+                <p>- Ma troisième tâche, étant de récuperer le fichier généré et de l'importer sur le logiciel SAGE.</p>
                 <br>
-                <!-- <img id="photoTache1" src="../../assets/Tache1.jpg" /> -->
-                <p> Cette tâche permet donc à l'utilisateur si il a vue ou non l'alerte qui lui à été envoyer.</p>
+                <h2>Projet n°2 : Le projet Shweet</h2>
                 <br>
-                <p>Voici le résultat final de la tâche</p>
+                <p>Le projet s'appelle "Shweet". C'est une application qui vous permet de déployer une sonde et grâce à cette sonde on peut capturer l'ensemble de votre système d'information, les types et les monitores en temps réel (PC, box, boite réseau, ect...). Avec cela on peut retrouver leur interface 3D pour bien visualiser l'ensemble de l'infrastructure informatique de la personne.</p>
+                <p>Si vous voulez en savoir plus sur le projet voici le lien : <a href="https://shwett.com/"> lien vers shweet</a></p>
+                <br>
+                <p>Tâche n°1 - Mettre en place une alerte qui permet de mettre en vue ou non vue.</p>
+                <br>
+                <img id="photoTache1" src="../../assets/Tache1.png" />
+                <br>
+                <p> Cette tâche permet donc à l'utilisateur si il a vue ou non l'alerte qui lui à été envoyée.</p>
+                <p>Il fallait gérer l'action de non vue à vue et que cette action soit pris en compte dans la base de données pour être stocké.</p>
+                <br>
+                <p>Voici le résultat final de la tâche n°1 :</p>
                 <img id="photo2Tache1" src="../../assets/Tache1Fin.png" />
                 <br>
                 <br>
-                <p>Tâche n°2 -> Reception d'un email de changement de mot de passe quand le mot de passe de l'utilisateur est modifier.  </p>
+                <p>Tâche n°2 - Reception d'un email de changement de mot de passe quand le mot de passe de l'utilisateur est modifier.  </p>
                 <br>
                 <img id="photoTache1" src="../../assets/Tache2.png" />
                 <br>
-                <p> Cette tâche permet une meilleur sécurité et alerte l'utilisateur en au cas où ce n'est pas lui.</p>
+                <p> Cette tâche permet une meilleur sécurité et alerte l'utilisateur au cas où ce n'est pas lui.</p>
                 <br>
-                <p>Voici le résultat final de la tâche</p>
+                <p>Voici le résultat final de la tâche n°2 :</p>
                 <img id="photo2Tache1" src="../../assets/Tache2Fin.png" />
                 <br>
-                <p>Tâche n°3 ->Ajouter, modifier et supprimer les informations d'une version  </p>
+                <p>Tâche n°3 - Ajouter, modifier et supprimer les informations d'une version  </p>
                 <br>
                 <img id="photoTache1" src="../../assets/Tache3.png" />
                 <br>
-                <p></p>
+                <p>Pour cette tâche, nous avons dû mettre en place 3 formulaires, un formualaire qui nous permet d'ajouter des données sur la page mais aussi dans la base de données. </p>
+                <p>Un formulaire pour modifier les données et un pour supprimer les données.</p>
+                <p>Pour compléter cette tâche nous avons ajouter des messages de reussite et d'erreur pour l'ajout, la modification et la suppression.</p>
                 <br>
-                <p>Voici le résultat final de la tâche</p>
+                <p>Voici le résultat final de la tâche n°3 :</p>
+                <img id="photo2Tache1" src="../../assets/Tache3Fin.png" />
                 <br>
-                <!-- <img id="photo2Tache1" src="../../assets/Tache3Fin.png" /> -->
+                <br>
+                <h2>Conclusion</h2>
+                <br>
+                <p>Si vous voulez savoir plus sur mon ressenti, l'expérience que j'ai pu acquérir et les points d'améliorations. Vous pouvez allez consulter mon bilan sur ce stage chez SIIUM <router-link to="Bilan_stage">ici</router-link>. </p>
                 <br>
             </div>
             <div id="mapid" ></div>
@@ -77,13 +96,21 @@
     border: 3px solid black;
 
 }
-
-.text h2{
+.text h1{
     padding : 30px 0px 30px 0px;
     text-align: center;
     font-weight: bold;
     border-bottom: 2px solid black;
     border-bottom-width: 3px;
+}
+
+.text h2{
+    padding : 30px 0px 30px 0px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-bottom-width: 3px;
+    width: 500px;
 }
 
 .text p {
