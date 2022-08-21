@@ -21,7 +21,6 @@
                 <br>
                 <p>Tâche n°1 -> Mettre en place une alerte qui permet de mettre en vue ou non vue.</p>
                 <br>
-                <img id="photoTache1" src="../../assets/Tache1.jpg" />
                 <p> Cette tâche permet donc à l'utilisateur si il a vue ou non l'alerte qui lui à été envoyer.</p>
                 <br>
                 <p>Voici le résultat final de la tâche</p>
