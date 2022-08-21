@@ -11,9 +11,9 @@
                         <h3>Je m'appelle Luke Jones</h3>
                         <br>
                         <p>
-                        Je suis un étudiant en Informatique à Nantes Ynov Campus. 
+                        Je suis un étudiant en deuxième année d'informatique à Nantes Ynov Campus. 
                         <br>
-                        Mon but serait d'y préparer un bachelor et ensuite de faire un master. 
+                        Mon but serait de préparer un bachelor pour ensuite faire un master. 
                         </p>
                     </div>
                     <div id="info">
@@ -51,7 +51,7 @@
                 <div class="left-block">
                     <div class="picture">
                         <img id="Luke-photo" src="../assets/luke1.jpg" />
-                        <a target="_blank" href="cv_de_luke.pdf" download="" class="CV"><i class="fa fa-download"></i>Télécharger le CV</a>
+                        <a target="_blank" href="CV.pdf" download="" class="CV"><i class="fa fa-download"></i>Télécharger le CV</a>
                     </div>
                     <div class="find">
                         <h4>Ce que je recherche ?</h4>
@@ -61,6 +61,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <h1 class="titleCV">Curriculum vitae</h1>
+            <div class="imageCV">
+                <img id="CV" src="../assets/CV.jpg" />
             </div>
             
         </div>
@@ -254,5 +258,31 @@
     color: black;
     text-align: left;
 }
+
+.titleCV{
+    color: black;
+    margin-top: 100px;
+    padding: 30px;
+    font-family: 'Chewy', cursive;
+    font-size: 60px; 
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.imageCV{
+    background-color: RoyalBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.imageCV #CV{
+    border-radius: 10px;
+}
+
+
 
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: top; background-color: #42a5f5" viewBox="0 150 1440 170">
-    <path fill="#1565c0" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: top; background-color: #1565c0" viewBox="0 150 1440 170">
+    <path fill="#42a5f5" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
     </svg>
     <section class="s5">
         <div class="main-container">
@@ -26,15 +26,12 @@
                         <li><a class="fa fa-map-marker" ></a> 13 Rue Stéphane LeDuc, Nantes 44100</li>
                     </div>
                     <div class="reseaux">
-                        <li><a target="_blank" class="fa fa-facebook" href="https://www.facebook.com/profile.php?id=100005241454058"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/luke-jones-163a731b6/" class="fa fa-linkedin"></a></li>
+                        <li><a target="_blank" href='https://github.com/Luke859' class="fa fa-github"></a></li>
                         <li><a target="_blank" href='https://www.instagram.com/luke_jones8509/' class="fa fa-instagram"></a></li>
                     </div>
                 </div>
 
-                <!-- <vue-recaptcha sitekey="6LeIP6weAAAAAOshHIwb5EROFETJi-MtbRtdyN2e">
-                <button>Click me</button>
-                </vue-recaptcha> -->
             </div>
         </div>
     </section>
@@ -43,7 +40,7 @@
 <style>
 
 .s5 {
-    background-color: #1565c0;
+    background-color: #42a5f5;
     overflow: auto;
 
 }

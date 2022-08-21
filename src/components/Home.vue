@@ -17,6 +17,10 @@
                     <img id="photo" src="../assets/luke_bleu.jpg" />
                     <!-- <h1 class="moi">Luke Jones</h1> -->
                 </div>
+                <div class="reseauxHome">
+                        <li><a target="_blank" href="https://www.linkedin.com/in/luke-jones-163a731b6/" class="fa fa-linkedin"></a></li>
+                        <li><a target="_blank" href='https://github.com/Luke859' class="fa fa-github"></a></li>
+                </div>
             </div>
         </div>
     </section>
@@ -154,6 +158,22 @@
     .greeting{
         margin-top: 0%;
     }
+}
+
+.reseauxHome {
+    display: flex;
+    margin: 0 auto;
+}
+
+.reseauxHome > li {
+    list-style-type: none;
+    font-size: 50px;
+    margin-top: -100px;
+    padding-left: 30px;
+}
+
+.reseauxHome li a:hover{
+    color: rgb(0, 127, 255);
 }
 
 </style>

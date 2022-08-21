@@ -17,9 +17,9 @@
                 </div>
                 <div class="card-projets">
                     <div class="card-content">
-                        <h2 class="card-title">L'atelier bonne pratique</h2>
+                        <h2 id="card2" class="card-title">Les activités en entreprise</h2>
                         <p class="card-body">
-                        Dans cet article, je vais vous parler des differentes activités, ateliers que j'ai pu vivre en entreprise, pour prendre du recule sur le travail.
+                        Dans cet article, je vais vous parler des differentes activités, ateliers que j'ai pu vivre en entreprise, pour prendre du recul sur le travail.
                         </p>
                         <a class="button"><router-link to="/Articles/Activites_entreprise">Learn more</router-link></a>
                     </div>
@@ -27,10 +27,10 @@
                 <div class="card-projets">
                     <div class="card-content">
                         <h2 class="card-title">
-                        Les avantages et inconvénient du télétravail
+                        Le Télétravail
                         </h2>
                         <p class="card-body">
-                        Je vais vous parler des avantages et inconvénient du télétravail.
+                        Je vais vous parler des avantages et inconvénients du télétravail.
                         </p>
                         <a class="button"><router-link to="/Articles/Teletravail">Learn more</router-link></a>
                     </div>
@@ -41,7 +41,7 @@
                         Projets réalisés 
                         </h2>
                         <p class="card-body">
-                        Dans cet article on retrouve les tâches réalisées et les langages utilisés pendant mon stage.
+                        Dans cet article, on retrouve les tâches réalisées et les langages utilisés pendant mon stage.
                         </p>
                         <a class="button"><router-link to="/Articles/Projets">Learn more</router-link></a>
                     </div>
@@ -52,7 +52,7 @@
                         Symfony VS Laravel
                         </h2>
                         <p class="card-body">
-                        Dans cet article je fais la comparaison entre Laravel et Symfony.
+                        Dans cet article, je fais la comparaison entre Laravel et Symfony.
                         </p>                    
                         <a class="button"><router-link to="/Articles/Symfony_Laravel">Learn more</router-link></a>
                     </div>
@@ -146,6 +146,10 @@
 
 }
 
+.projets .card-content #card2{
+    font-size: 22px;
+}
+
 .projets .card-content .card-body{
     color: white;
     font-size: 15px;
@@ -167,6 +171,11 @@
 
 .card-projets:hover .card-title::after, .card-projets:focus-within .card-title::after{
     transform: scaleX(1);
+}
+
+.projets .card-content a{
+    text-decoration: none;
+    color: black;
 }
 
 .projets .card-content .button{
