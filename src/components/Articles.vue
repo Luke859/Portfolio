@@ -21,7 +21,7 @@
                         <p class="card-body">
                         Dans cet article, je vais vous parler des differentes activités, ateliers que j'ai pu vivre en entreprise, pour prendre du recule sur le travail.
                         </p>
-                        <a href="#" class="button">Learn more</a>
+                        <a class="button"><router-link to="/Articles/Activites_entreprise">Learn more</router-link></a>
                     </div>
                 </div>
                 <div class="card-projets">
@@ -30,31 +30,31 @@
                         Les avantages et inconvénient du télétravail
                         </h2>
                         <p class="card-body">
-                        Ok
+                        Je vais vous parler des avantages et inconvénient du télétravail.
                         </p>
-                        <a href="#" class="button">Learn more</a>
+                        <a class="button"><router-link to="/Articles/Teletravail">Learn more</router-link></a>
                     </div>
                 </div>
                 <div class="card-projets">
                     <div class="card-content">
                         <h2 class="card-title">
-                        Projets 3
+                        Projets réalisés 
                         </h2>
                         <p class="card-body">
-                        Ok
+                        Dans cet article on retrouve les tâches réalisées et les langages utilisés pendant mon stage.
                         </p>
-                        <a href="#" class="button">Learn more</a>
+                        <a class="button"><router-link to="/Articles/Projets">Learn more</router-link></a>
                     </div>
                 </div>
                 <div class="card-projets">
                     <div class="card-content">
                         <h2 class="card-title">
-                        Projets 3
+                        Symfony VS Laravel
                         </h2>
                         <p class="card-body">
-                        Ok
+                        Dans cet article je fais la comparaison entre Laravel et Symfony.
                         </p>                    
-                        <a href="#" class="button">Learn more</a>
+                        <a class="button"><router-link to="/Articles/Symfony_Laravel">Learn more</router-link></a>
                     </div>
                 </div>
                 <div class="card-projets">
@@ -108,11 +108,9 @@
     background: black;
     font-family: sans-serif;
     padding: 50px 50px 50px 50px;
-    /* min-width: 990px; */
 }
 
 .projets .card-projets{
-    color: red;
     background-image: url("../assets/CAT.gif");
     background-size: cover;
     padding-top: 60px;
@@ -140,6 +138,7 @@
     position: relative;
     width: max-content;
     color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     font-size: 25px;
     font-weight: bold;
 

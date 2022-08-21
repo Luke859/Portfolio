@@ -9,7 +9,9 @@
                         </li>
                     </ul>
                     <h3>Etudiant en Informatique</h3>
-                    <h2>Portfolio</h2>
+                    <div class="button">
+                        <a><router-link to="/About">En savoir plus sur moi</router-link></a>
+                    </div>
                 </div>
                 <div class="phrase">
                     <img id="photo" src="../assets/luke_bleu.jpg" />
@@ -89,6 +91,27 @@
 .greeting ul li a:hover::before{
     width: 100%;
     text-shadow: 2px 2px 10px #1275c6;
+}
+
+.greeting .button {
+    padding: 30px;
+}
+.greeting .button a{
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    background-color: #42a5f5;
+    padding: 0.5em 1.25em;
+    border-radius: 5px;
+    transition: 800ms ease;
+    transition-delay: 0ms;
+}
+
+.greeting .button a:hover{
+    background-color: white;
+    color: black;
+    transition: 800ms ease;
 }
 
 /* Côté gauche de ma section */
