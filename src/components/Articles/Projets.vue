@@ -59,7 +59,7 @@
                 <p>Pour compléter cette tâche nous avons ajouter des messages de reussite et d'erreur pour l'ajout, la modification et la suppression.</p>
                 <br>
                 <p>Voici le résultat final de la tâche n°3 :</p>
-                <img id="photo2Tache1" src="../../assets/Tache3Fin.png" />
+                <img id="photo2Tache1" src="../../assets/TacheFin.png" />
                 <br>
                 <br>
                 <h2>Conclusion</h2>
