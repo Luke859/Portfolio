@@ -44,7 +44,8 @@
                 <p></p>
                 <br>
                 <p>Voici le résultat final de la tâche</p>
-                <img id="photo2Tache1" src="../../assets/Tache3Fin.png" />
+                <br>
+                <img id="photo2Tache1" src="../../assets/Tache3fin.png" />
                 <br>
             </div>
             <div id="mapid" ></div>
