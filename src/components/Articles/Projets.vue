@@ -21,7 +21,7 @@
                 <br>
                 <p>Tâche n°1 -> Mettre en place une alerte qui permet de mettre en vue ou non vue.</p>
                 <br>
-                <img id="photoTache1" src="../../assets/Tache1.JPG" />
+                <img id="photoTache1" src="../../assets/Tache1.jpg" />
                 <p> Cette tâche permet donc à l'utilisateur si il a vue ou non l'alerte qui lui à été envoyer.</p>
                 <br>
                 <p>Voici le résultat final de la tâche</p>
@@ -30,7 +30,7 @@
                 <br>
                 <p>Tâche n°2 -> Reception d'un email de changement de mot de passe quand le mot de passe de l'utilisateur est modifier.  </p>
                 <br>
-                <img id="photoTache1" src="../../assets/Tache2.JPG" />
+                <img id="photoTache1" src="../../assets/Tache2.jpg" />
                 <br>
                 <p> Cette tâche permet une meilleur sécurité et alerte l'utilisateur en au cas où ce n'est pas lui.</p>
                 <br>
