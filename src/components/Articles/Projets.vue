@@ -30,7 +30,7 @@
                 <br>
                 <p>Tâche n°2 -> Reception d'un email de changement de mot de passe quand le mot de passe de l'utilisateur est modifier.  </p>
                 <br>
-                <!-- <img id="photoTache1" src="../../assets/Tache2.jpg" /> -->
+                <img id="photoTache1" src="../../assets/Tache2.png" />
                 <br>
                 <p> Cette tâche permet une meilleur sécurité et alerte l'utilisateur en au cas où ce n'est pas lui.</p>
                 <br>
@@ -39,12 +39,12 @@
                 <br>
                 <p>Tâche n°3 ->Ajouter, modifier et supprimer les informations d'une version  </p>
                 <br>
-                <!-- <img id="photoTache1" src="../../assets/Tache3.jpg" /> -->
+                <img id="photoTache1" src="../../assets/Tache3.png" />
                 <br>
                 <p></p>
                 <br>
                 <p>Voici le résultat final de la tâche</p>
-                <!-- <img id="photo2Tache1" src="../../assets/Tache3Fin.png" /> -->
+                <img id="photo2Tache1" src="../../assets/Tache3Fin.png" />
                 <br>
             </div>
             <div id="mapid" ></div>
