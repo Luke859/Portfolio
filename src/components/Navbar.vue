@@ -13,11 +13,11 @@
     <nav>
       <ul class="primary-navigation" data-visible="false">
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About me</router-link></li>
+        <li><router-link to="/about">A propos</router-link></li>
+        <li><router-link to="/Entreprise">Entreprise</router-link></li>
         <li><router-link to="/Articles">Blog</router-link></li>
         <li><router-link to="/Experiences">Experiences</router-link></li>
         <li><router-link to="/Contact">Contact</router-link></li>
-        <li><router-link to="/Entreprise">Entreprise</router-link></li>
       </ul>
     </nav>
   </header>

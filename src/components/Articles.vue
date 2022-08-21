@@ -57,7 +57,7 @@
                         <a class="button"><router-link to="/Articles/Symfony_Laravel">Learn more</router-link></a>
                     </div>
                 </div>
-                <div class="card-projets">
+                <!-- <div class="card-projets">
                     <div class="card-content">
                         <h2 class="card-title">
                         Projets 3
@@ -67,7 +67,7 @@
                         </p>
                         <a href="#" class="button">Learn more</a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -91,6 +91,7 @@
 
 .main-container {
     width: 1200px;
+    padding-bottom: 40px;
 }
 
 @media screen and (max-width: 1200px){
@@ -108,6 +109,7 @@
     background: black;
     font-family: sans-serif;
     padding: 50px 50px 50px 50px;
+    border-radius: 20px;
 }
 
 .projets .card-projets{

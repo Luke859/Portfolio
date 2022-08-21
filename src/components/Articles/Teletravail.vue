@@ -6,43 +6,42 @@
                 <br>
                 <img id="photoTele" src="../../assets/teletravail.jpg" />
                 <br>
-                <p>On sait maintenant que le télétravail fait partie de la vie quotidienne des français surtout depuis l'arrivé de la crise sanitaire.</p>
-                <p>On a tous pu expérimenté le télétravail pour en pouvoir faire un avis.</p>
-                <p>Je vais donc vous montrer que le télétravail peut présenter des avantages et des inconvénients.</p>
+                <p>Depuis l'arrivée de la crise sanitaire, le télétravail fait partie de la vie quotidienne des français.</p>
+                <p>Une grande partie de la population active a vécu le télétravail et chacun a son avis dessus. </p>
+                <p>Je vais vous montrer que le télétravail peut présenter des avantages et des inconvénients.</p>
                 <h2>Les avantages du télétravail</h2>
                 <br>
                 <h3>1- Moins de stress et de fatigue</h3>
                 <br>
                 <p>Quand on est chez soi, on a tendance à mieux gérer son quotidien et on a plus de temps pour soi et sa famille.</p>
-                <p>Nous sommes alors plus productifs, plus concentrés et moins stressés.</p>
-                <p>Le temps de trajets est réduits, cela donne plus de temps le matin pour ce préparer donc il y a moins de retard.</p>
-                <p>On ressent moins la pression car on est chez soi donc à l'abri du stress</p>
-                <p>Cela permet de travailler dans un environnement calme, avec moins de bruits, moins de pertubation, ce qui est excellent pour la concentration .</p>
+                <p>On est alors plus productif, plus concentré et moins stressé.</p>
+                <p>Dépendant de la situation familiale, cela permet de travailler dans un environnement calme, avec moins de bruits, moins de perturbations, ce qui est excellent pour la concentration.</p>
+                <p>Le temps de trajets est réduit, cela donne plus de temps le matin pour se préparer et il y a moins de temps perdu dans la journée.</p>
                 <br>
                 <h3>2- Plus motivé et efficace</h3>
                 <br>
-                <p>Grâce à de meilleures conditions de travail et ayant une meilleur flexibilité il peut assouplir son rythme de travail entre vie profesionnelle et vie privée donc il peut ce consacrer entièrement à son travail selon une organisation qui fonctionne pour lui.</p>
-                <p>Quand une personne est en télétravail elle est plus autonome et responsable. L'employeur leur fait plus confiance donc l'employer ce sens plus valorisé et cela va ainsi plus le motivé.</p>
+                <p>Grâce à de meilleures conditions de travail et ayant une meilleure flexibilité on peut assouplir son rythme de travail entre vie professionnelle et vie privée. On peut se consacrer entièrement à son travail avec sa propre façon d’organisation. </p>
+                <p>Quand une personne est en télétravail elle est plus autonome et responsable. L'employeur lui fait plus confiance donc l'employé se sent plus valorisé et cela va ainsi plus le motiver.</p>
                 <br>
                 <h2>Les inconvénients du télétravail</h2>
                 <br>
                 <h3>1- La solitude et l'isolement </h3>
                 <br>
-                <p>Le télétravail présente des avantages mais quand quelque chose a des avantages, il vient toujours avec ces inconvénients.</p> 
-                <p>Pour nous les êtres humains, nous avons besoin d'une vie social sauf que quand on est chez soi tout seul on peut perdre le contact avec cette vie social donc on ce le repli sur soi, ce qui peut engendrer la dépression.</p>
-                <p>On a besoin de ce sentiment d'appartenance sauf que quand on est chez soi, elle n'existe plus. C'est pour ça qu'il faut organiser des moments avec ses collègues, ses amis pour faire des visios, ce voir, faire des activités, etc...</p>
+                <p>Le télétravail présente des avantages mais également des inconvénients.</p> 
+                <p>Pour nous les êtres humains, nous avons besoin d'une vie social. Cependant quand on est chez soi tout seul on peut perdre le contact avec cette vie social ce qui peut engendrer la dépression.</p>
+                <p>On a aussi besoin d’un sentiment d'appartenance. Quand on est chez soi, elle n'existe plus. </p>
                 <br>
                 <h3>2- Difficulté de gérer son temps de travail et sa vie personnelle</h3>
                 <br>
-                <p>Beaucoup de personne qui travail chez eux peuvent être distrait par les choses chez soi par exemple la télé, le portable, le pc.</p>
-                <p>A l'inverse il peut y avoir le risque de travailler plus car l'ordinateur de travail est chez soi.</p>
-                <p>C'est pour cela que c'est important de s'organiser, s'organiser niveau travail et vie social, en fesant un planning par exemple.</p>
+                <p>Beaucoup de personnes qui travaillent chez eux peuvent être distrait, par exemple la télévision, les réseaux sociaux, le PC.</p>
+                <p>Au contraire il peut y avoir le risque de travailler de trop car l'ordinateur de travail est chez soi et vous avez l’accès à tous moments.</p>
                 <br>
                 <h2>Conclusion</h2>
                 <br>
-                <p>Pour conclure on peut dire que le télétravail affecte les êtres humains de differentes façon mais qu'on faire au mieux que le télétravail ce passe le mieux.</p>
-                <p>Pour cela il faut aménager un espace de travail, pour être efficace et ce motivé pour travailler mais aussi il faut planifier ces horaires.</p>
-                <p>Séparer vie professionnelle avec vie privée. Prendre du temps pour soi, des pauses même si vous vous sentez seul.</p>
+                <p>Pour conclure on peut dire que le télétravail affecte les êtres humains de différentes façons, de façons positives et négatives.</p>
+                <p>Pour que le télé travail soit un succès :</p>
+                <p>Il faut aménager un espace de travail, planifier ces horaires pour être efficace et se motiver pour travailler.</p>
+                <p>Il est important d’organiser des moments avec ses collègues pour faire des téléconférences et rester en contact. Cependant il faut aussi séparer la vie professionnelle de la vie privée pour qu’une vie n’envahisse pas l’autre.</p>
             </div>
             <div id="mapid" ></div>
         </div>

@@ -10,7 +10,7 @@
                     </ul>
                     <h3>Etudiant en Informatique</h3>
                     <div class="button">
-                        <a><router-link to="/About">En savoir plus sur moi</router-link></a>
+                        <a><router-link to="/About">A propos de moi</router-link></a>
                     </div>
                 </div>
                 <div class="phrase">
